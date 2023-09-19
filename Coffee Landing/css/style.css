@@ -1,0 +1,85 @@
+body{
+    background-image:url(https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px 1300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    width: 200px;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+img{
+
+    width: 30px;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+    border: 1px solid black;
+    padding:8px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 3px;
+}
+
+a:hover{
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+button{
+    background-color:black;
+    border-radius: 8px;
+    color: white;
+    width: 205px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+main,form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    border-radius: 2px;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
